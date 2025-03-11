@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    height: 100vh;
+    background: center / cover url("./asset/fond.jpg");
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    color: #fff;
+}
+.sun-btn {
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 11px 11px 10px 11px;
+    background-color: #2A2B37;
+    border: none;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.title-div {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    width: 35%;
+    color: #F2F2F7;
+}
